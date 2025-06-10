@@ -1,0 +1,65 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background: #fdf6f0;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(90deg, #ffa07a, #f08080);
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  border-bottom: 5px solid #ff6347;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+main {
+  padding: 2rem;
+}
+
+.mapa {
+  background: white;
+  border-left: 10px solid;
+  border-radius: 8px;
+  margin: 2rem 0;
+  padding: 1.5rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.mapa h2 {
+  margin-top: 0;
+  font-size: 1.8rem;
+}
+
+.mapa1 { border-color: #ffb347; background: #fffaf0; }
+.mapa2 { border-color: #87cefa; background: #f0f8ff; }
+.mapa3 { border-color: #90ee90; background: #f5fff5; }
+.mapa4 { border-color: #dda0dd; background: #faf5ff; }
+
+ul {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+ul > li {
+  margin: 0.5rem 0;
+}
+
+ul ul {
+  padding-left: 1.5rem;
+  list-style-type: circle;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #ffe4e1;
+  font-size: 0.9rem;
+  color: #555;
+}
