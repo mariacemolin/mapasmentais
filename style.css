@@ -1,130 +1,87 @@
-<section class="mapa mapa1">
-  <h2>📄 Currículo</h2>
-  <ul>
-    <li><strong>O que é?</strong> Documento que resume a trajetória profissional, formação e habilidades.</li>
-    <li><strong>Elementos:</strong>
-      <ul>
-        <li><strong>Dados pessoais:</strong> Nome, idade, telefone, e-mail, endereço (opcional).</li>
-        <li><strong>Objetivo:</strong> Cargo desejado e breve motivação.</li>
-        <li><strong>Formação acadêmica:</strong> Cursos, instituições e datas.</li>
-        <li><strong>Experiência profissional:</strong> Nome da empresa, função, atividades e período.</li>
-        <li><strong>Cursos e certificados:</strong> Cursos extras relevantes.</li>
-        <li><strong>Idiomas:</strong> Inglês, Espanhol, etc. (com nível de fluência).</li>
-      </ul>
-    </li>
-    <li><strong>Como elaborar:</strong>
-      <ul>
-        <li>Use um layout limpo e profissional.</li>
-        <li>Evite erros de português.</li>
-        <li>Adapte para cada vaga.</li>
-        <li>Evite exageros e informações falsas.</li>
-      </ul>
-    </li>
-    <li><strong>Habilidades que devem ser evidenciadas:</strong>
-      <ul>
-        <li>Trabalho em equipe</li>
-        <li>Comunicação</li>
-        <li>Organização</li>
-        <li>Proatividade</li>
-        <li>Resolução de problemas</li>
-        <li>Uso de ferramentas digitais (Excel, Word, etc.)</li>
-      </ul>
-    </li>
-  </ul>
-</section>
-<section class="mapa mapa2">
-  <h2>🗣️ Entrevista de Emprego</h2>
-  <ul>
-    <li><strong>Técnicas:</strong>
-      <ul>
-        <li>Estude a empresa e a vaga.</li>
-        <li>Prepare respostas para perguntas comuns.</li>
-        <li>Cuide da linguagem corporal.</li>
-        <li>Vista-se adequadamente (perfil da empresa).</li>
-      </ul>
-    </li>
-    <li><strong>Estratégias:</strong>
-      <ul>
-        <li>Mantenha a calma e o foco.</li>
-        <li>Responda com clareza e sinceridade.</li>
-        <li>Mostre interesse pela vaga e pela empresa.</li>
-        <li>Faça perguntas relevantes ao final.</li>
-      </ul>
-    </li>
-    <li><strong>Simulações e Práticas:</strong>
-      <ul>
-        <li>Treine com amigos ou frente ao espelho.</li>
-        <li>Participe de entrevistas simuladas em cursos e oficinas.</li>
-        <li>Grave vídeos para autoanálise.</li>
-      </ul>
-    </li>
-    <li><strong>Dicas Finais:</strong>
-      <ul>
-        <li>Seja pontual.</li>
-        <li>Evite gírias e vícios de linguagem.</li>
-        <li>Agradeça a oportunidade.</li>
-      </ul>
-    </li>
-  </ul>
-</section>
-<section class="mapa mapa3">
-  <h2>📘 Carteira de Trabalho</h2>
-  <ul>
-    <li><strong>O que é?</strong> Documento obrigatório que registra vínculos de trabalho formais no Brasil.</li>
-    <li><strong>Para que serve?</strong>
-      <ul>
-        <li>Garantir direitos trabalhistas (FGTS, INSS, férias, 13º).</li>
-        <li>Comprovar experiência profissional.</li>
-        <li>Ter acesso ao seguro-desemprego.</li>
-      </ul>
-    </li>
-    <li><strong>Tipos:</strong>
-      <ul>
-        <li>Física (em papel)</li>
-        <li>Digital (pelo app da CTPS Digital)</li>
-      </ul>
-    </li>
-    <li><strong>Informações registradas:</strong>
-      <ul>
-        <li>Nome do empregador</li>
-        <li>Data de admissão e demissão</li>
-        <li>Cargo e função</li>
-        <li>Salário</li>
-        <li>Anotações de férias e reajustes</li>
-      </ul>
-    </li>
-  </ul>
-</section>
-<section class="mapa mapa4">
-  <h2>💰 Meu Primeiro Salário</h2>
-  <ul>
-    <li><strong>Salário bruto x líquido:</strong>
-      <ul>
-        <li><strong>Bruto:</strong> Valor total antes dos descontos.</li>
-        <li><strong>Líquido:</strong> Valor final que o trabalhador recebe.</li>
-      </ul>
-    </li>
-    <li><strong>Contracheque:</strong>
-      <ul>
-        <li>Comprovante de pagamento mensal.</li>
-        <li>Mostra salário, descontos, benefícios e encargos.</li>
-        <li>Importante para controle financeiro e comprovações.</li>
-      </ul>
-    </li>
-    <li><strong>Descontos obrigatórios:</strong>
-      <ul>
-        <li><strong>INSS:</strong> Previdência Social. Protege em casos de aposentadoria, doenças, etc.</li>
-        <li><strong>FGTS:</strong> Fundo de Garantia. 8% do salário depositado pelo empregador.</li>
-        <li><strong>IRRF:</strong> Imposto de Renda Retido na Fonte (dependendo do salário).</li>
-      </ul>
-    </li>
-    <li><strong>Dicas para usar bem o primeiro salário:</strong>
-      <ul>
-        <li>Faça um orçamento simples.</li>
-        <li>Evite gastar tudo de uma vez.</li>
-        <li>Guarde uma parte para imprevistos.</li>
-        <li>Priorize necessidades.</li>
-      </ul>
-    </li>
-  </ul>
-</section>
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background: #fdf6f0;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(90deg, #ffa07a, #f08080);
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  border-bottom: 5px solid #ff6347;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+main {
+  padding: 2rem;
+}
+
+.mapa {
+  background: white;
+  border-left: 10px solid;
+  border-radius: 8px;
+  margin: 2rem 0;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.mapa:hover {
+  transform: scale(1.02);
+}
+
+.mapa h2 {
+  margin-top: 0;
+  font-size: 1.8rem;
+}
+
+.mapa1 {
+  border-color: #ffb347;
+  background: #fffaf0;
+}
+.mapa2 {
+  border-color: #87cefa;
+  background: #f0f8ff;
+}
+.mapa3 {
+  border-color: #90ee90;
+  background: #f5fff5;
+}
+.mapa4 {
+  border-color: #dda0dd;
+  background: #faf5ff;
+}
+
+ul {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+ul > li {
+  margin: 0.5rem 0;
+}
+
+ul ul {
+  padding-left: 1.5rem;
+  list-style-type: circle;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #ffe4e1;
+  font-size: 0.9rem;
+  color: #555;
+}
